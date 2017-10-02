@@ -1,0 +1,56 @@
+header {
+  font-size: 40px;
+  font-family: Helvetica;
+  color: navy;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li {
+  padding-top: 5x;
+  padding-bottom: 5px;
+}
+
+body {
+  font-size: 16px;
+  font-family: Helvetica;
+  line-height: 1.7em;
+  background: #DCDCDC;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  margin: 10px 0 0 0;
+  border: 2px solid black;
+  border-radius: 2px;
+  max-height: 200px;
+  float: right;
+
+}
+.resize {
+  width:300px;
+  height: auto;
+}
+a {
+  color: #navy;
+  text-decoration: none;
+
+}
+
+hr {
+  color:navy;
+}
+
+footer {
+  float: right;
+  font-size:18px;
+}
+.clearfix::after{
+  display: block;
+  clear:both;
+  content:'';
+  overflow: auto; /* https://www.w3schools.com/howto/howto_css_clearfix.asp
+}
