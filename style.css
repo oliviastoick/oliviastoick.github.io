@@ -1,11 +1,17 @@
 header {
   font-size: 40px;
-  font-family: Helvetica;
-  color: navy;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+  background: navy;
 }
 
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
 li {
   padding-top: 5x;
   padding-bottom: 5px;
@@ -13,9 +19,9 @@ li {
 
 body {
   font-size: 16px;
-  font-family: Helvetica;
+  font-family: 'Encode Sans Expanded', sans-serif;
   line-height: 1.7em;
-  background: #DCDCDC;
+  background: #FFFFFF;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,12 +51,18 @@ hr {
 }
 
 footer {
-  float: right;
+
   font-size:18px;
+  background-color: navy;
+  color: white;
+}
+footer a{
+  float:right;
 }
 .clearfix::after{
   display: block;
   clear:both;
   content:'';
-  overflow: auto; /* https://www.w3schools.com/howto/howto_css_clearfix.asp
+  overflow: auto; /* https://www.w3schools.com/howto/howto_css_clearfix.asp */
 }
+
